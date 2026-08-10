@@ -1,0 +1,16 @@
+# Terraform local cache and downloaded providers
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Editor / OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Local
+*.tfvars
+!example.tfvars
